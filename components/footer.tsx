@@ -13,8 +13,12 @@ export default function Footer() {
           <div>
             <p className="text-xs uppercase tracking-wide text-neutral-400 mb-4">Contact</p>
             <div className="space-y-2 text-sm font-light text-neutral-300">
-              <p>hello@emberroastery.com</p>
-              <p>(503) 555-0123</p>
+              <a href="mailto:flowcreativconsultant@gmail.com" className="block hover:text-white transition-colors">
+                flowcreativconsultant@gmail.com
+              </a>
+              <a href="https://wa.me/6285161917939" target="_blank" className="block hover:text-white transition-colors">
+                +62 851-6191-7939
+              </a>
             </div>
           </div>
 
@@ -22,12 +26,12 @@ export default function Footer() {
             <p className="text-xs uppercase tracking-wide text-neutral-400 mb-4">Follow</p>
             <div className="space-y-2 text-sm font-light text-neutral-300">
               <p>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="https://www.instagram.com/flowcreativconsultant/" target="_blank" className="hover:text-white transition-colors">
                   Instagram
                 </a>
               </p>
               <p>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="mailto:flowcreativconsultant@gmail.com" className="hover:text-white transition-colors">
                   Email Newsletter
                 </a>
               </p>

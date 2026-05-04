@@ -28,11 +28,17 @@ export default function LocationHours() {
 
               <div>
                 <p className="text-xs uppercase tracking-wide text-neutral-500 mb-3">Contact</p>
-                <p className="font-light text-neutral-700">
-                  hello@emberroastery.com
-                  <br />
-                  (503) 555-0123
-                </p>
+                <div className="space-y-2 font-light text-neutral-700">
+                  <a href="mailto:flowcreativconsultant@gmail.com" className="block hover:text-neutral-900 transition-colors">
+                    flowcreativconsultant@gmail.com
+                  </a>
+                  <a href="https://wa.me/6285161917939" target="_blank" className="block hover:text-neutral-900 transition-colors">
+                    +62 851-6191-7939
+                  </a>
+                  <a href="https://www.instagram.com/flowcreativconsultant/" target="_blank" className="block hover:text-neutral-900 transition-colors">
+                    @flowcreativconsultant
+                  </a>
+                </div>
               </div>
 
               <button className="px-6 py-3 border border-neutral-900 text-neutral-900 font-light hover:bg-stone-100 transition-colors text-sm">
