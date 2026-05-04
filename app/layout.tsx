@@ -12,21 +12,7 @@ export const metadata: Metadata = {
   description:
     "Small-batch specialty coffee roasted with precision. Sourced directly from farmers, roasted for clarity and character.",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/icon.svg",
   },
 }
 
