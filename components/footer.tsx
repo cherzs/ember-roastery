@@ -35,6 +35,11 @@ export default function Footer() {
                   Email Newsletter
                 </a>
               </p>
+              <p>
+                <a href="https://www.linkedin.com/in/zhafranghaly/" target="_blank" className="hover:text-white transition-colors">
+                  LinkedIn
+                </a>
+              </p>
             </div>
           </div>
         </div>
