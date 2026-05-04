@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-neutral-900 text-white py-12">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-12 mb-12">
           <div>
             <h3 className="text-lg font-light mb-4">EMBER ROASTERY</h3>
             <p className="text-sm font-light text-neutral-400 leading-relaxed">

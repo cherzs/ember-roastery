@@ -2,10 +2,10 @@ export default function BrewExperience() {
   return (
     <section className="py-24 bg-stone-50">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
           {/* Left: Text */}
           <div>
-            <h2 className="text-4xl font-light text-neutral-900 mb-8 text-pretty">From Roastery to Cup.</h2>
+            <h2 className="text-3xl md:text-4xl font-light text-neutral-900 mb-8 text-pretty">From Roastery to Cup.</h2>
 
             <div className="space-y-8">
               <div>

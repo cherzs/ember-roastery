@@ -2,9 +2,9 @@ export default function FinalCTA() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-5xl font-light text-neutral-900 mb-12 text-pretty">Coffee Worth the Process.</h2>
+        <h2 className="text-3xl md:text-5xl font-light text-neutral-900 mb-10 md:mb-12 text-pretty">Coffee Worth the Process.</h2>
 
-        <div className="flex gap-6 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="px-8 py-3 bg-amber-900 text-white font-light hover:bg-amber-950 transition-colors">
             View Coffee
           </button>

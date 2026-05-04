@@ -1,15 +1,15 @@
 export default function Hero() {
   return (
-    <section className="grid grid-cols-2 min-h-screen">
+    <section className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
       {/* Left: Content */}
-      <div className="flex flex-col justify-center px-12 py-16 bg-white">
-        <h2 className="text-6xl font-light leading-tight text-neutral-900 mb-6 text-pretty">
+      <div className="flex flex-col justify-center px-6 md:px-12 py-16 bg-white">
+        <h2 className="text-4xl md:text-6xl font-light leading-tight text-neutral-900 mb-6 text-pretty">
           Roasted with Precision. Brewed with Purpose.
         </h2>
-        <p className="text-lg font-light text-neutral-600 mb-12 leading-relaxed max-w-md">
+        <p className="text-base md:text-lg font-light text-neutral-600 mb-10 leading-relaxed max-w-md">
           Specialty coffee roasted in small batches for clarity and character.
         </p>
-        <div className="flex gap-6">
+        <div className="flex flex-col sm:flex-row gap-4">
           <button className="px-8 py-3 bg-amber-900 text-white font-light hover:bg-amber-950 transition-colors">
             Explore Coffee
           </button>
@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
 
       {/* Right: Image */}
-      <div className="relative overflow-hidden bg-stone-100">
+      <div className="relative overflow-hidden bg-stone-100 min-h-64 md:min-h-0">
         <img
           src="/specialty-coffee-roasting-process.jpg"
           alt="Coffee roasting in progress"
